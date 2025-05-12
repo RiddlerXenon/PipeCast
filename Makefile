@@ -34,4 +34,3 @@ clean: init
 run: build
 	@echo "Running project..."
 	@go run $(MAIN_GO) || true
-
