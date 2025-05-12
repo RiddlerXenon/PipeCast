@@ -85,11 +85,11 @@ static void registry_event_global(void *data, uint32_t id, uint32_t permissions,
 
                 write_json_to_file(global);
 
-                printf("Object ID: %u\n", id);
-                printf("  Type: %s\n", type);
-                printf("  Version: %u\n", version);
-                print_properties(props);
-                printf("\n");
+                // printf("Object ID: %u\n", id);
+                // printf("  Type: %s\n", type);
+                // printf("  Version: %u\n", version);
+                // print_properties(props);
+                // printf("\n");
             }
         }
     }
